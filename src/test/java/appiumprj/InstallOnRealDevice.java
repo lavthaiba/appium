@@ -12,8 +12,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class InstallOnRealDevice {
 	
-	@Test
-	
+	@Test	
 	public void installAppOnRealDevice() throws MalformedURLException {
 		
 		DesiredCapabilities dc = new DesiredCapabilities();
@@ -34,5 +33,4 @@ public class InstallOnRealDevice {
 		
 		driver.quit();
 	}
-
 }

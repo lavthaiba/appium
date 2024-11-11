@@ -13,7 +13,6 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class InstallAppOnEmulator {
 	
 	@Test
-	
 	public void installAppOnEmulator() throws MalformedURLException {
 		
 		DesiredCapabilities dc = new DesiredCapabilities();
